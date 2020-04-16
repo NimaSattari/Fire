@@ -64,9 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DeleteTree.cs" />
+    <Compile Include="Assets\NewSpread.cs" />
     <Compile Include="Assets\Quit.cs" />
     <Compile Include="Assets\RandomPick.cs" />
-    <Compile Include="Assets\RandomPick1.cs" />
     <Compile Include="Assets\SpawnTree.cs" />
     <Compile Include="Assets\Tree.cs" />
     <Compile Include="Assets\Wind.cs" />

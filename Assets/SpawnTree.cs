@@ -16,7 +16,7 @@ public class SpawnTree : MonoBehaviour
 
     public void Spawn()
     {
-
+        SpawnGoodies();
         SpawnGoodies();
         SpawnGoodies();
         SpawnGoodies();
@@ -29,7 +29,7 @@ public class SpawnTree : MonoBehaviour
     }
     void SpawnGoodies()
     {
-        Vector2 pos = new Vector2(Random.Range(xMin, xMax), Random.Range(yMin, yMax));
+        Vector2 pos = new Vector2((int)Random.Range(xMin, xMax), (int)Random.Range(yMin, yMax));
         GameObject TreePrefab = Trees[Random.Range(0, Trees.Length)];
         Instantiate(TreePrefab, pos, transform.rotation);
         positions.Add(pos);
